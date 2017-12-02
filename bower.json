@@ -1,0 +1,21 @@
+{
+  "name": "Noa_Portfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/LemuelCushing/Noa_Portfolio",
+  "authors": [
+    "LemuelCushing <SeventhHorror@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

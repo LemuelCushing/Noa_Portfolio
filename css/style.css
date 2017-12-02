@@ -10,8 +10,7 @@ div.entryBtn {
   width: 49%;
   height: 49%;
   float: left;
-  cursor: crosshair;
-  border-radius: 3px; }
+  cursor: crosshair; }
 
 #introQ {
   position: absolute;

@@ -5,7 +5,7 @@
     transform: translate(-50%, -50%);
   }
 
-  @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+  @import url('https://fonts.googleapis.com/css?family=Suez+One');
   
 html,
 body {
@@ -26,16 +26,17 @@ div.entryBtn {
 
 #introQ {
     position: absolute;
-    top:50%;
+    top:20%;
     left:50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 15;
     display: block;
-    @include centerer;
+    // @include centerer;
     // background: rgba($color: #ffffff, $alpha: .3);
     border-radius: 10px;
     padding: 10px;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Suez One', serif;
     font-size: 300%;
     pointer-events: none;
 }

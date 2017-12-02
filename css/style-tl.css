@@ -1,5 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Miriam+Libre");
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+body > * {
+  flex-shrink: 0; }
+
 .work {
+  display: block;
+  margin: auto;
+  padding: 2%;
+  width: 50%; }
+
+#box {
+  display: table;
+  width: 100%; }
+
+#text {
+  padding-right: 0.5%;
+  padding-left: 2%;
+  padding-top: 10%;
+  background-color: #ff9e2c;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  right: 0px;
+  width: 28%;
+  direction: rtl;
+  font-size: 150%;
+  text-align: center;
+  font-family: 'Miriam Libre', sans-serif; }
+
+#graphics {
+  background-color: #b6701e;
+  position: absolute;
+  left: 0px;
+  width: 70%; }

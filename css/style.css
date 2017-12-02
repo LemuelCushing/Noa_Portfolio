@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Shrikhand");
+@import url("https://fonts.googleapis.com/css?family=Suez+One");
 html,
 body {
   height: 100%;
@@ -15,18 +15,15 @@ div.entryBtn {
 
 #introQ {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   z-index: 15;
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 10px;
   padding: 10px;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Suez One', serif;
   font-size: 300%;
   pointer-events: none; }
 

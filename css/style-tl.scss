@@ -5,7 +5,8 @@
     transform: translate(-50%, -50%);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Miriam+Libre');
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&subset=hebrew');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
 
 
 html,
@@ -22,9 +23,15 @@ body > * {
 .work {
     // @include centerer;
     display: block;
-    margin: auto;
-    padding: 2%;
+    // margin: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 2%;
     width: 50%;
+    -webkit-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
 }
 
 #box {
@@ -33,18 +40,22 @@ body > * {
 }
 
 #text {
-    padding-right: 0.5%;
-    padding-left: 2%;
-    padding-top: 10%;
-    background-color: #ff9e2c;
+    width: 20%;
+    padding: 5%;
+    // background-color: #ff9e2c;
     position: absolute;
     // display: flex;
     right: 0px;
-    width: 28%;
     direction: rtl;
-    font-size: 150%;
-    text-align: center;
-    font-family: 'Miriam Libre', sans-serif;
+    font-size: 18pt;
+    text-align: justify;
+    font-family: 'Heebo', sans-serif;
+}
+
+#text>h3 {
+    font-size: 36pt;
+    font-family: "Heebo", sans-serif;
+    font-weight: 800;
 }
 
 #graphics {
@@ -52,4 +63,5 @@ body > * {
     position: absolute;
     left: 0px;
     width: 70%;
+    padding-top: calc(5% + 3em);
 }

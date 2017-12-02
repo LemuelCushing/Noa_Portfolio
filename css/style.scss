@@ -16,10 +16,12 @@ body {
 }
 
 div.entryBtn {
-    width: 50%;
-    height: 50%;
+    width: 49%;
+    height: 49%;
     float: left;
     cursor: crosshair;
+    // margin: 0.1%;
+    border-radius: 3px;
 }
 
 #introQ {
@@ -39,18 +41,18 @@ div.entryBtn {
 }
 
 #TL {
-    background: rgb(165, 37, 75);
+    background: #c5c5c5;
 }
 
 
 #TR {
-    background: #b922a5;
+    background-color: #CCCCCC;
 }
 
 #BL {
-    background: rgb(159, 29, 100);
+    background: #bcbcbc;
 }
 
 #BR {
-    background: #A85F9C;
+    background: #333333;
 }

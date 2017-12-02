@@ -7,10 +7,11 @@ body {
   position: relative; }
 
 div.entryBtn {
-  width: 50%;
-  height: 50%;
+  width: 49%;
+  height: 49%;
   float: left;
-  cursor: crosshair; }
+  cursor: crosshair;
+  border-radius: 3px; }
 
 #introQ {
   position: absolute;
@@ -30,13 +31,13 @@ div.entryBtn {
   pointer-events: none; }
 
 #TL {
-  background: #a5254b; }
+  background: #c5c5c5; }
 
 #TR {
-  background: #b922a5; }
+  background-color: #CCCCCC; }
 
 #BL {
-  background: #9f1d64; }
+  background: #bcbcbc; }
 
 #BR {
-  background: #A85F9C; }
+  background: #333333; }

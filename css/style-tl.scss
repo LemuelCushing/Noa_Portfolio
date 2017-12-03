@@ -29,9 +29,17 @@ body > * {
     margin-right: auto;
     // padding: 2%;
     width: 50%;
-    -webkit-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
-    box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    // -webkit-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    // -moz-box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    // box-shadow: 1px 3px 10px -3px rgba(0,0,0,0.75);
+    // FIXME - Check compatability for the following 2:
+    -webkit-filter: drop-shadow(-30px -5px 40px rgba(78, 18, 18, 0.445));
+    filter:         drop-shadow(-30px -5px 40px rgba(78, 18, 18, 0.445)); 
+}
+
+.pin {
+    width: 40%;
+
 }
 
 #box {

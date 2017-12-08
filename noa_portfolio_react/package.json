@@ -1,0 +1,28 @@
+{
+  "name": "react-static-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.9.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-simple-panels": "^1.0.1",
+    "react-static": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-react-tools": "1.x.x",
+    "eslint-plugin-react": "^7.5.1",
+    "serve": "^6.1.0"
+  }
+}
